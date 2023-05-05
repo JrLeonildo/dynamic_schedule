@@ -1,0 +1,92 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  /*cada 1 rem vale 10px*/
+  font-size: 62.5%;
+}
+body{
+  background-color: #4343ccc4;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+header{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Kanit', sans-serif;
+}
+.centro{
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  margin: 50px auto 50px auto;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px #00000068;
+}
+.informacao{
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+#img{
+  width: 100%;
+  text-align: center;
+  margin: 70px auto 20px auto 
+}
+#imagem{
+  border-radius: 200px;
+}
+footer{
+  text-align: center;
+  font-size: 1.3rem;
+  width: 100vw;
+}
+
+/*responsividade*/
+
+@media (max-width: 770px){
+  .centro{
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 455px){
+  header{
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+  .centro{
+    max-width: 300px;
+    height: 450px;
+  }
+  #img{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 320px){
+  header{
+    font-size: 1.2rem;
+  }
+  .centro{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 360px;
+  }
+  .informacao{
+    padding-top: 20px;
+  }
+  #img{
+    margin-top: 10px;
+    margin-bottom: 1px;
+  }
+}
